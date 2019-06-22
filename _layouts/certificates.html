@@ -1,0 +1,31 @@
+---
+# Copyright (c) 2019 Gilad Reich <https://greich.com/>
+layout: page
+---
+
+{{ content }}
+
+{% assign show_collection = page.show_collection | default:"certificates" %}
+{% assign ordered_certificates = site[show_collection] | sort:"date" | reverse %}
+{% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
+
+{% assign certificates_group_by = site.data.strings.date_formats.certificates_group_by | default:"%Y" %}
+
+{% for certificate in ordered_certificates %}
+  {% assign currentdate = certificate.date | date:certificates_group_by %}
+
+  {% if currentdate != date %}
+    {% unless forloop.first %}</div>{% endunless %}
+
+    <h2 id="{{ certificates_group_by | slugify }}-{{ currentdate | slugify }}">{{ currentdate }}</h2>
+    <div class="columns">
+    {% assign date = currentdate %}
+  {% endif %}
+
+  {% assign featured = page.featured | default:certificate.featured | default:page.big_certificate | default:certificate.big_certificate %}
+  <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
+    {% include pro/project-card.html project=certificate featured=featured %}
+  </div>
+
+  {% if forloop.last %}</div>{% endif %}
+{% endfor %}

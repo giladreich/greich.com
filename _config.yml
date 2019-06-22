@@ -254,6 +254,9 @@ collections:
     permalink:         /projects/:path/
     output:            true
 
+  certificates:
+    permalink:         /certificates/:path/
+    output:            true
 
 # File inclusion/exclusion
 # ========================================================================================
@@ -271,6 +274,7 @@ exclude:
   - _plugins
   - .sass-cache
   - resources
+  - /_projects/_EXAMPLE.md
 
 # include:
 #   - LICENSE.md
