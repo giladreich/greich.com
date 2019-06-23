@@ -25,11 +25,7 @@ My favorite cooking pans are ironcast, mainly due to their durability and versat
 ![](/assets/img/hobbys/cooking/ironcast_vegies.jpg)
 
 At the moment I'm enjoying exploring baking and recreating favorite childhood recipes. I always loved eating bourekas and whenever I find myself missing them, I like to bake them in different ways. Here I filled them with some feta cheese and spinach:
-![](/assets/img/hobbys/cooking/borekash_flat.jpg)
-
-![](/assets/img/hobbys/cooking/borekash_folded.jpg)
-
-![](/assets/img/hobbys/cooking/borekash_after.jpg)
+![](/assets/img/hobbys/cooking/borekash.png)
 
 I also enjoy finding new recipes for sugar free baking, here is a coconut almond flour lemon cake I made:
 ![](/assets/img/hobbys/cooking/cake_small.jpg)
