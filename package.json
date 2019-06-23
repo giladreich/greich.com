@@ -19,7 +19,7 @@
     "version": "npm run format && npm run build && git add ."
   },
   "config": {
-    "port": 4015
+    "port": 4000
   },
   "author": "Florian Klampfer <mail@qwtel.com> (https://qwtel.com/)",
   "license": "GPL-3.0",

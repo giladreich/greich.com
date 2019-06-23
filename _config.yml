@@ -84,7 +84,7 @@ paginate_path:         /blog/page-:num/
 # Sidebar image and theme color of the site.
 accent_color:          '#8ba3d2'
 accent_image:
-  background: 'radial-gradient(#445eb3 5%, #213880 55%, #011965 100%)'
+  background: 'radial-gradient(#305ae4 5%, #0a2b98 55%, #00030e 100%)'
   overlay:    false
 
 # This is used for the `theme-color` meta tag,
@@ -254,9 +254,14 @@ collections:
     permalink:         /projects/:path/
     output:            true
 
+  hobbys:
+    permalink:         /hobbys/:path/
+    output:            true
+
   certificates:
     permalink:         /certificates/:path/
     output:            true
+
 
 # File inclusion/exclusion
 # ========================================================================================

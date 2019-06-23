@@ -1,0 +1,40 @@
+---
+# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
+layout: base
+---
+
+{% assign project = page %}
+{% assign separator = site.data.strings.separator | default:"|" %}
+{% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
+{% assign proj_format = site.data.strings.date_formats.project | default:"%Y" %}
+{% assign from_to_separator = strings.from_to_separator | default:strings.resume.from_to_separator | default:"–" %}
+
+<article
+  id="project"
+  class="page"
+  role="article"
+  {% unless nsd %}vocab="http://schema.org/" typeof="CreativeWork" resource="#project"{% endunless %}
+  >
+  <header>
+    <h1 class="page-title" property="name">{{ project.title }}</h1>
+
+    {% assign screenshot = project.screenshot %}
+    <div class="img lead sixteen-nine">
+      {% if screenshot %}
+        {% include components/hy-img.html
+          img=screenshot
+          sizes="(min-width: 90em) 48rem, (min-width: 54em) 42rem, (min-width: 42em) 38rem, 100vw"
+          alt=project.title
+          property="image"
+        %}
+      {% endif %}
+    </div>
+
+    {% include components/message.html text=project.description hide=page.hide_description property="description" alt="" %}
+    {% if project.caption %}<meta property="disambiguatingDescription" content="{{ project.caption }}"/>{% endif %}
+  </header>
+
+  {{ content }}
+</article>
+
+<hr class="dingbat related" />

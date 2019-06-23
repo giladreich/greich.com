@@ -71,6 +71,8 @@ date_formats:
   related_post:          '%d %b %Y'
   list_group_by:         '%Y'
   list_entry:            '%d %b'
+  hobby:                 '%d %b %Y'
+  hobbys_group_by:       '%Y'
   project:               '%d %b %Y'
   projects_group_by:     '%Y'
   certificate:           '%d %b %Y'
