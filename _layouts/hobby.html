@@ -9,6 +9,8 @@ layout: base
 {% assign proj_format = site.data.strings.date_formats.project | default:"%Y" %}
 {% assign from_to_separator = strings.from_to_separator | default:strings.resume.from_to_separator | default:"–" %}
 
+<meta property="og:image" itemprop="image" content="{{ project.screenshot.src }}" />
+
 <article
   id="project"
   class="page"
