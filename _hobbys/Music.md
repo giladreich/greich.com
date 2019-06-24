@@ -27,7 +27,7 @@ I always enjoyed listening to and playing music. Around the age of ten, drums be
 
 Around 2009, I discovered [Ryan Keen](http://www.ryankeen.co.uk/)'s YouTube channel which really inspired me. He plays in a unique way blending percussion with fingerstyle. I particularly find his song writing inspirational. This is one of my favorite songs of his:
 <iframe src="https://www.youtube.com/embed/mdJaV_W4_mA"
-        width="780" height="400"
+        width="100%" height="400"
         frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         style="background: #000000;"
         allowfullscreen></iframe>
@@ -37,7 +37,7 @@ With practice I learned how to play guitar using this technique, but from all gu
 
 I soon got into recording, working with multiple professional audio mixing software as well as video editing. Working with sound introduced me to a whole other world. It wasn't easy in the beginning, but once I got the grasp of it, I began recording, and enjoyed editing and making my own videos. Here is a video I made around 2013:
 <iframe src="https://player.vimeo.com/video/343860446"
-        width="780" height="400"
+        width="100%" height="400"
         frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         style="background: #000000;"
         allowfullscreen></iframe>

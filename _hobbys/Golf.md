@@ -21,7 +21,7 @@ featured: false
 
 I was first introduced to golf by my brother who plays in a professional club. Berlin has a few wonderful places to play golf that I enjoy going to. Some of them requires membership, whilst others are available for anyone to come and play. Occasionally I used to go to the court in [Berliner Golfclub Stolper Heide](https://www.golfclub-stolperheide.de/startseite.html) which is a huge court with a friendly environment in the middle of a forest. This is me getting few shots in the warming up line:
 <iframe src="https://player.vimeo.com/video/343940634"
-        width="780" height="400"
+        width="100%" height="400"
         frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         style="background: #000000;"
         allowfullscreen></iframe>
