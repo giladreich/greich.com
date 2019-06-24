@@ -9,22 +9,13 @@ layout: page
 {% assign ordered_hobbys = site[show_collection] | sort:"order" %}
 {% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
 
-{% assign hobbys_group_by = site.data.strings.date_formats.hobbys_group_by | default:"%Y" %}
+<div class="columns">
+  {% for hobby in ordered_hobbys %}
+    {% assign featured = page.featured | default:hobby.featured | default:page.big_hobby | default:hobby.big_hobby %}
+    <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
+      {% include pro/project-card.html project=hobby featured=featured %}
+    </div>
 
-{% for hobby in ordered_hobbys %}
-  {% assign currentdate = hobby.date | date:hobbys_group_by %}
-
-  {% if currentdate != date %}
-    {% unless forloop.first %}</div>{% endunless %}
-
-    <div class="columns">
-    {% assign date = currentdate %}
-  {% endif %}
-
-  {% assign featured = page.featured | default:hobby.featured | default:page.big_hobby | default:hobby.big_hobby %}
-  <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
-    {% include pro/project-card.html project=hobby featured=featured %}
-  </div>
-
-  {% if forloop.last %}</div>{% endif %}
-{% endfor %}
+    {% if forloop.last %}</div>{% endif %}
+  {% endfor %}
+</div>
