@@ -10,8 +10,6 @@ screenshot:
     480w: /assets/img/certificates/Cisco_IT_Essentials/srcset@0,25x.jpg
 accent_color: '#384c60'
 
-caption: Cisco IT Essentials
-
 description: >
   Cisco IT Essentials Certification
 

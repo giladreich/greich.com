@@ -10,8 +10,6 @@ screenshot:
     480w: /assets/img/certificates/Microsoft_Database_Fundementals/srcset@0,25x.jpg
 accent_color: '#384c60'
 
-caption: Microsoft Database Fundementals
-
 description: >
   Microsoft Database Fundementals Certification
 

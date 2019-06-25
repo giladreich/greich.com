@@ -10,8 +10,6 @@ screenshot:
     480w: /assets/img/certificates/Microsoft_Software_Development_Fundementals/srcset@0,25x.jpg
 accent_color: '#384c60'
 
-caption: Microsoft Software Development Fundementals
-
 description: >
   Microsoft Software Development Fundementals Certification
 

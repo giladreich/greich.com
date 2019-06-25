@@ -10,8 +10,6 @@ screenshot:
     480w: /assets/img/certificates/Linux_Essentials/srcset@0,25x.jpg
 accent_color: '#384c60'
 
-caption: Linux Essentials
-
 description: >
   Linux Essentials Certification
 
