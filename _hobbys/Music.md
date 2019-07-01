@@ -36,7 +36,7 @@ I later discovered other musicians who play guitar using similar techniques such
 With practice I learned how to play guitar using this technique, but from all guitars in my collection, I wasn't too happy with the sound generated when tapping the 12th thread. After doing some research on Ryan Keen's guitar I found he uses [Benjamin][4] guitars. At 21, I decided I wanted to invest in a professional acoustic guitar and although I couldn't afford a Benjamin guitar, I found [Furch][5]'s handmade guitar brand. Playing on [Furch G23-SF][6] guitar was love at first sight. It'll be eight years this July and our relationship is still going strong :D.
 
 I soon got into recording, working with multiple professional audio mixing software as well as video editing. Working with sound introduced me to a whole other world. It wasn't easy in the beginning, but once I got the grasp of it, I began recording, and enjoyed editing and making my own videos. Here is a video I made around 2013:
-<iframe src="https://player.vimeo.com/video/343860446"
+<iframe src="https://www.youtube.com/embed/CQnngPpHXb8"
         width="100%" height="400"
         frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         style="background: #000000;"
