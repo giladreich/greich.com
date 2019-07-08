@@ -1,17 +1,17 @@
 ---
 layout: certificate
-title: Microsoft Database Fundementals
+title: Microsoft Database Fundamentals
 date: 18 Mar 2016
 screenshot:
-  src: /assets/img/certificates/Microsoft_Database_Fundementals/srcset@0,25x.jpg
+  src: /assets/img/certificates/Microsoft_Database_Fundamentals/srcset@0,25x.jpg
   srcset:
-    1920w: /assets/img/certificates/Microsoft_Database_Fundementals/srcset@1x.jpg
-    960w: /assets/img/certificates/Microsoft_Database_Fundementals/srcset@0,5x.jpg
-    480w: /assets/img/certificates/Microsoft_Database_Fundementals/srcset@0,25x.jpg
+    1920w: /assets/img/certificates/Microsoft_Database_Fundamentals/srcset@1x.jpg
+    960w: /assets/img/certificates/Microsoft_Database_Fundamentals/srcset@0,5x.jpg
+    480w: /assets/img/certificates/Microsoft_Database_Fundamentals/srcset@0,25x.jpg
 accent_color: '#384c60'
 
 description: >
-  Microsoft Database Fundementals Certification
+  Microsoft Database Fundamentals Certification
 
 links:
   - title: Reference
@@ -20,7 +20,7 @@ links:
 featured: true
 ---
 
-# Microsoft Database Fundementals
+# Microsoft Database Fundamentals
 
 ## Skills measured
 
