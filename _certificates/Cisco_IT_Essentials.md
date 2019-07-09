@@ -15,7 +15,7 @@ description: >
 
 links:
   - title: Reference
-    url: https://www.ihk-berlin.de/English/en
+    url: https://www.netacad.com/courses/os-it/it-essentials
 
 featured: true
 ---
