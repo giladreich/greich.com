@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Implementing multiple view ports for ImGui using DirectX.
+comments: true
 ---
 
 # Implementing multiple view ports for ImGui using DirectX
