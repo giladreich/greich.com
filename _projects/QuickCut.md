@@ -13,9 +13,9 @@ accent_image:
   background: 'linear-gradient(to bottom,#1b4fb3 0%,#1b4fb3 30%,#3e60a3 50%,#819fdb 70%,#acbfe5 100%)'
   overlay:    false
 
-caption: QuickCut is a shortcut keyboard manager that both facilitates key mapping and activates specified processes.
+caption: QuickCut is a cross-platform keyboard manager that both facilitates key mapping and allows the configuration of global hotkeys triggering user defined actions.
 description: >
-  QuickCut is a shortcut keyboard manager that both facilitates key mapping and activates specified processes.
+  QuickCut is a cross-platform keyboard manager that both facilitates key mapping and allows the configuration of global hotkeys triggering user defined actions.
 
 links:
   - title: Download
