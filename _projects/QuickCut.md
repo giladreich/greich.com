@@ -24,11 +24,24 @@ links:
 featured: true
 ---
 
+<p align="center">
+    <a href="https://github.com/giladreich/QuickCut/actions?query=workflow%3AWindows" alt="Windows Status">
+        <img src="https://github.com/giladreich/QuickCut/workflows/Windows/badge.svg" /></a>
+    <a href="https://github.com/giladreich/QuickCut/actions?query=workflow%3ALinux" alt="Linux Status">
+        <img src="https://github.com/giladreich/QuickCut/workflows/Linux/badge.svg" /></a>
+    <a href="https://github.com/giladreich/QuickCut/actions?query=workflow%3AMacOS" alt="MacOS Status">
+        <img src="https://github.com/giladreich/QuickCut/workflows/MacOS/badge.svg" /></a>
+    <a href="https://www.qt.io/" alt="Qt">
+        <img src="https://img.shields.io/badge/CMake-Qt-brightgreen.svg?logo=cmake" /></a>
+    <a href="http://makeapullrequest.com" alt="Pull Requests">
+        <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?logo=pre-commit" /></a>
+</p>
 
-[![](https://github.com/giladreich/QuickCut/workflows/Windows/badge.svg)](https://github.com/giladreich/QuickCut/actions?query=workflow%3AWindows) | [ ![](https://github.com/giladreich/QuickCut/workflows/Linux/badge.svg)](https://github.com/giladreich/QuickCut/actions?query=workflow%3ALinux) | [ ![](https://github.com/giladreich/QuickCut/workflows/MacOS/badge.svg)](https://github.com/giladreich/QuickCut/actions?query=workflow%3AMacOS) | [ ![](https://img.shields.io/badge/CMake-Qt-brightgreen.svg?logo=cmake)](https://www.qt.io/) | [ ![](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?logo=pre-commit)](http://makeapullrequest.com)
-
-Special thanks to JetBrains for supporting this project.  
-[![](/assets/img/projects/QuickCut/media/JetBrains.png)](https://www.jetbrains.com/)
+<p align="center">
+    Special thanks to JetBrains for supporting this project.<br>
+    <a href="https://www.jetbrains.com/" alt="JetBrains">
+        <img src="/assets/img/projects/QuickCut/media/JetBrains.png" width="60px" /></a>
+</p>
 
 
 ---
@@ -38,7 +51,7 @@ QuickCut is a cross-platform keyboard manager that both facilitates key mapping 
 
 QuickCut offer a rich set of features that allows for shorthand access at the convenience of your chosen keyboard keys. It allows you to tailor your keyboard layout design making your time as efficient as possible.
 
-<img src="/assets/img/projects/QuickCut/media/MainView.png" alt="Create Profile" width="950" height="450"/>
+<img src="/assets/img/projects/QuickCut/media/MainView.png" alt="Create Profile" width="550" height="450"/>
 
 ## Contents
 
